@@ -1,27 +1,45 @@
-So this is mini turbo hand fan which uses a powerful bldc motor with a 30A esc and also have a speed control and custom made impeller for this so to optimised the volume with the pressure . This can be use as vaccum cleaner as well or for the cleaning basically its mini turbo jet in your hand...
+# Mini Turbo Hand Fan & Vacuum (30mm Impeller Rig)
 
-I made this because i want something high speed multi-purpose hand fan , I try to find online but its very expensive approximattely 70-80 dollar but this fan will be within 50 dollar and also have 4 lipo battery so yeah it have better life and also rechargeable with the protection of BMS which provide better battery life...
+### Project Overview
+This project is a high-speed, multi-purpose mini turbo hand fan capable of doubling as a handheld vacuum cleaner. It is powered by a high-RPM Brushless DC (BLDC) motor controlled by a 30A ESC and an ATtiny85 microcontroller. The core of the project features a custom-designed 30mm impeller, mechanically optimized in Fusion 360 to perfectly balance static pressure and air volume displacement. 
 
-Picture 
-### 3D Model Views
-![Front View](images/front%20view.png)
-![Inside View](images/inside.png)
-![Inside Top View](images/inside%20top%20view.png)
-![Handle](images/handle.png)
+While commercial turbo jet fans with similar performance cost upwards of $70–$80, this project was engineered from the ground up to be fully fabricated for **strictly under $50.00**. It features a custom 3D-printed enclosure housing a rechargeable 4S 18650 Li-ion battery power plant, integrated with a Battery Management System (BMS) and Type-C charging for maximum safety, longevity, and portability.
 
-### Impeller Details
-![Impeller](images/impeller.png)
-![Impeller 2](images/impeller2.png)
+---
+
+### Hardware & 3D Design Details
+
+**The Impeller**
+This is the custom 7-blade impeller designed to mount onto the BLDC motor shaft. It is mechanically optimized to balance high static pressure with maximum air volume displacement, allowing the device to act as both a powerful fan and a vacuum.
+![Impeller Top View](images/impeller.png)
+![Impeller Side Profile](images/impeller2.png)
+
+**The Full Main Body**
+This is the main body shell of the fan. It features a heavily filleted, ergonomic handle for a comfortable grip during high-thrust operation, along with precise external cutouts for the power button, speed control knob, and Type-C charging module.
+![Main Body Shell](images/final_mainbody.png)
+
+**Internal Battery Compartment**
+This is the internal layout showing the dedicated compartments designed to securely house the four 18650 Li-ion cells, the BMS, and all routed wiring without obstructing the main airflow.
+![Battery Compartment CAD](images/battery_cad1.png)
+
+**Final Assembly**
+This is the final CAD assembly showing how the motor housing, impeller, and ergonomic handle all fit perfectly together into a single, compact handheld unit.
+![Final Assembly 1](images/final.png)
+![Final Assembly 2](images/final2.png)
+
+---
 
 ### Wiring & Electronics
-![Point-to-Point Wiring Schematic](images/schematics1.png)
 
+**Point-to-Point Schematic**
+This is the finalized electrical schematic. To strictly maintain the $50.00 budget limit, we bypassed expensive custom PCB fabrication. Instead, I designed a clean point-to-point wiring architecture connecting the ATtiny85, the 30A ESC, and the 4S battery management system.
+![Point-to-Point Wiring Schematic](images/updated_schematic.png)
 
-Grant Reuquest 
-I need a soldering iron grant as i dont have , i had one before but its not working anymore so looking forward to get the solderin iron grant as i didnt add it on BOM just the necessary thing which needed to made full polised hand fan..
+---
 
+### Bill of Materials (BOM)
+Our BOM has been carefully balanced using local sourcing to hit an exact $50.00 budget, leaving exactly enough room for custom 3D printing services.
 
-BOM
 | Item | Description | Estimated Price (USD) | Link |
 | :--- | :--- | :--- | :--- |
 | Digispark ATtiny85 | USB Development Board (Controller) | $2.50 | [Robu.in](https://robu.in/product/attiny85-usb-development-board/) |
@@ -37,3 +55,10 @@ BOM
 | Silicone Hookup Wire | 14AWG Ultra Flexible Silicone Wire - Red | $0.80 | [Robu.in](https://robu.in/product/high-quality-ultra-flexible-14awg-silicone-wire-red/) |
 | 3D Printing Service | JLCPCB Enclosure & Impeller fabrication | $10.00 | [JLCPCB](https://jlcpcb.com/3d-printing) |
 | **TOTAL** | **Target Budget Met** | **$50.00** | |
+
+---
+
+### Tool Grant Request: Soldering Iron
+To bring this project from the CAD and schematic phase into physical production, **I am respectfully requesting a grant for a new soldering iron**. 
+
+I previously owned one, but it is no longer functional. Because I prioritized hitting the strict $50.00 budget cap with the necessary motors, power management systems, and 3D printing services, I was unable to allocate funds for replacement tooling within the primary BOM. A reliable soldering iron is absolutely essential for assembling the point-to-point wiring, attaching the BMS to the 18650 cells, and safely distributing power to the 30A ESC.
