@@ -33,7 +33,7 @@ This is the final CAD assembly showing how the motor housing, impeller, and ergo
 
 **Point-to-Point Schematic**
 This is the finalized electrical schematic. To strictly maintain the $50.00 budget limit, we bypassed expensive custom PCB fabrication. Instead, I designed a clean point-to-point wiring architecture connecting the ATtiny85, the 30A ESC, and the 4S battery management system.
-![Point-to-Point Wiring Schematic](images/UpdatedSchematics.png)
+![Point-to-Point Wiring Schematic](images/Finalschematics.png)
 
 
 ## Final #D CAD view 
@@ -41,7 +41,7 @@ This is the finalized electrical schematic. To strictly maintain the $50.00 budg
 ![View 1](images/CAD1.png)
 ![View 2](images/CAD2.png)
 ![View 3](images/CAD3.png)
-![View 4](images/CAD4.png)  s
+![View 4](images/CAD4.png)  
 ---
 
 ### Bill of Materials (BOM)
