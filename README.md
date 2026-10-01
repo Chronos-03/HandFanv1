@@ -1,5 +1,13 @@
 # Mini Turbo Hand Fan & Vacuum (30mm Impeller Rig)
 
+
+## Final #D CAD view 
+
+![View 1](images/CAD1.png)
+![View 2](images/CAD2.png)
+![View 3](images/CAD3.png)
+![View 4](images/CAD4.png)  
+
 ### Project Overview
 This project is a high-speed, multi-purpose mini turbo hand fan capable of doubling as a handheld vacuum cleaner. It is powered by a high-RPM Brushless DC (BLDC) motor controlled by a 30A ESC and an ATtiny85 microcontroller. The core of the project features a custom-designed 30mm impeller, mechanically optimized in Fusion 360 to perfectly balance static pressure and air volume displacement. 
 
@@ -36,12 +44,6 @@ This is the finalized electrical schematic. To strictly maintain the $50.00 budg
 ![Point-to-Point Wiring Schematic](images/Finalschematics.png)
 
 
-## Final #D CAD view 
-
-![View 1](images/CAD1.png)
-![View 2](images/CAD2.png)
-![View 3](images/CAD3.png)
-![View 4](images/CAD4.png)  
 ---
 
 ### Bill of Materials (BOM)
