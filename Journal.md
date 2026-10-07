@@ -16,7 +16,6 @@ For this session, I focused on drafting the electrical connections in KiCad. Bec
 Time Spent: 1.1 Hours
 This session was dedicated to designing the most crucial mechanical component of the entire project: the impeller. I modeled a custom 7-blade impeller in Fusion 360, specifically tailored to mount onto the shaft of the BLDC motor.   The primary engineering challenge during this phase was optimizing the blade geometry to strike the perfect balance between static pressure generation and overall air volume displacement. A standard flat-pitch blade would simply chop the air and create turbulence, so I focused on a swept, curved blade profile that actively channels and compresses the air as it accelerates outward. This specific 7-blade configuration ensures consistent, smooth airflow at high RPMs while maximizing the efficiency of the motor within the tight tolerances of the planned 30mm enclosure.  
 
-
 ![Impeller Angled View](images/impeller.png)
 ![Impeller Side Profile](images/impeller2.png)
 
