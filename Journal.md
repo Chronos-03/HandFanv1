@@ -7,6 +7,7 @@ total_time: "7h 6m"
 ---
 
 # September 26, 2026: Component Research
+<!-- fabricate:entry 6 -->
 
 Kicking off the Mini Turbo Hand Fan project! My main task today was building the complete Bill of Materials (BOM) from scratch.The biggest problem I faced was finding hardware powerful enough to match an $80 commercial turbo fan, while keeping my total BOM strictly under the $50 grant limit. Standard DC motors wouldn't work, so I used AI to cross-reference vendors and prices to find affordable drone hardware instead.  
 
@@ -24,7 +25,8 @@ The tl;dr is: Successfully created the full BOM by carefully comparing vendors, 
 
 **Total time spent: 48m**
 
-# September 26, 2026: Initial Circuit Design & Schematics
+# September 26, 2026 (entry 2): Initial Circuit Design & Schematics
+<!-- fabricate:entry 8 -->
 
 With the hardware selected, it was time to move into KiCad and build the actual electrical blueprint. Since I am doing point-to-point wiring to stay under the $50 budget, the schematic is critical for ensuring I don't accidentally short a 16.8V Li-ion pack.
 
@@ -53,7 +55,8 @@ The tl;dr is: Successfully sourced custom symbols for all 7 primary modules and 
 
 **Total time spent: 1h**
 
-# September 26, 2026: 7-Blade Impeller CAD Design
+# September 26, 2026 (entry 3): 7-Blade Impeller CAD Design
+<!-- fabricate:entry 9 -->
 
 Moving from electronics into mechanical design! Today, I tackled the most critical custom part of the entire project: the 30mm impeller.
 
@@ -78,7 +81,8 @@ The tl;dr is: Researched acoustic resonance to settle on a vibration-dampening 7
 
 **Total time spent: 1h 6m**
 
-# September 26, 2026: Main Body Enclosure
+# September 26, 2026 (entry 4): Main Body Enclosure
+<!-- fabricate:entry 10 -->
 
 With the 30mm impeller and motor assembly (the "engine") finalized, I shifted focus to designing the primary structural housing. My core design philosophy here was modularity. Instead of a fixed, closed front end, I designed the main body around a cylindrical BLDC mount and wind tube. This specific geometry ensures that if I want to add attachments in the future—like a vacuum nozzle or an air concentrator—they can easily friction-fit onto the cylinder.
 
@@ -100,7 +104,8 @@ The tl;dr is: Designed a modular, cylindrical main body housing for the impeller
 
 **Total time spent: 1h**
 
-# September 26, 2026: Interface Cutouts & Ergonomic Handle Design
+# September 26, 2026 (entry 5): Interface Cutouts & Ergonomic Handle Design
+<!-- fabricate:entry 12 -->
 
 With the internal spatial conflicts resolved, I shifted my focus to the external user interface and the physical ergonomics of the main body housing.
 
@@ -117,6 +122,7 @@ The tl;dr is: Finalized the main body CAD by engineering precise interface cutou
 **Total time spent: 1h 30m**
 
 # September 28, 2026: CAD Refinement & Microcontroller Pivot
+<!-- fabricate:entry 31 -->
 
 During this session, I heavily refined the main 3D body, polishing external features while precisely mapping the internal compartments to house the complete power plant: the four 18650 Li-ion batteries, the BMS, and the Type-C charging module. However, this strict spatial optimization led to a major roadblock.   
 
@@ -143,7 +149,8 @@ Timelapse: https://lapse.hackclub.com/timelapse/Eumulaynib4_
 
 **Total time spent: 1h**
 
-# September 28, 2026: Final Assembly CAD & Ergonomic Details
+# September 28, 2026 (entry 2): Final Assembly CAD & Ergonomic Details
+<!-- fabricate:entry 33 -->
 
 The final stretch! In this last design session, I brought everything together to complete the full CAD assembly of the Mini Turbo Hand Fan. The main objective today was creating a perfect "digital twin" to verify that all the separate sub-assemblies—the 7-blade impeller, the cylindrical wind tube, and the handle—mated together flawlessly before moving to production.
 
