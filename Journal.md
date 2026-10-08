@@ -7,6 +7,8 @@ created_at: "2026-09-26"
 
 # September 26: Component Research
 
+
+
 Kicking off the Mini Turbo Hand Fan project! My main task today was building the complete Bill of Materials (BOM) from scratch. The biggest problem I faced was finding hardware powerful enough to match an $80 commercial turbo fan, while keeping my total BOM strictly under the $50 grant limit. Standard DC motors wouldn't work, so I used AI to cross-reference vendors and prices to find affordable drone hardware instead.
 
 Here are the core components I chose for the BOM to solve this:
