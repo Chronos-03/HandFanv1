@@ -46,6 +46,15 @@ This is the finalized electrical schematic. To strictly maintain the $50.00 budg
 
 ---
 
+**Wiring Diagram**
+![Wiring Diagram](images/WIRING%20DIAGRAM.png)
+
+Please note that all wire colors shown in the circuit diagram are for reference purposes only. Actual wire colors may differ depending on the specific components you are using, but the basic connections will remain the same. Always **cross-verify** the pinouts of your components before making connections. 
+
+**Standard Color Coding Used:**
+* 🔴 **Red Wire:** Signifies the Positive (+) / Power line (VCC).
+* ⚫ **Black Wire:** Signifies the Negative (-) / Ground line (GND).
+
 ### Bill of Materials (BOM)
 
 | Item | Description | Estimated Price (USD) | Verified Link |
