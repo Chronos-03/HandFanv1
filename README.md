@@ -9,6 +9,8 @@
 ![View 4](images/CAD4.png)  
 
 ### Project Overview
+I created this mini handfan as i want high powerful fan for my desk which can used as the powerful cleaner and also as vaccum cleaner, that why i used the high RPM BlDC motor which can produce high volume and pressure and also can creaet high suction, it is multipurpose high end powerful fan which is powerful 4 lipo battery, wiht the BMS which protect them for over charge
+
 This project is a high-speed, multi-purpose mini turbo hand fan capable of doubling as a handheld vacuum cleaner. It is powered by a high-RPM Brushless DC (BLDC) motor controlled by a 30A ESC and an ATtiny85 microcontroller. The core of the project features a custom-designed 30mm impeller, mechanically optimized in Fusion 360 to perfectly balance static pressure and air volume displacement. 
 
 While commercial turbo jet fans with similar performance cost upwards of $70–$80, this project was engineered from the ground up to be fully fabricated for **strictly under $50.00**. It features a custom 3D-printed enclosure housing a rechargeable 4S 18650 Li-ion battery power plant, integrated with a Battery Management System (BMS) and Type-C charging for maximum safety, longevity, and portability.
@@ -47,9 +49,22 @@ This is the finalized electrical schematic. To strictly maintain the $50.00 budg
 ---
 
 **Wiring Diagram**
-![Wiring Diagram](images/w.png)
+![Wiring Diagram](images/Wire.png)
 
 Please note that all wire colors shown in the circuit diagram are for reference purposes only. Actual wire colors may differ depending on the specific components you are using, but the basic connections will remain the same. Always **cross-verify** the pinouts of your components before making connections. 
+
+**How To assemble**
+
+1  Mount the custom 30mm 7-blade impeller onto the BLDC motor. Secure the motor inside the cylindrical wind tube using four mounting screws. Route the three motor phase wires through the dedicated wire hole at the bottom of the cylinder so they enter the main handle compartment cleanly.
+
+2  Assemble the four 18650 Li-ion cells into a 4S configuration and wire them to the 4S 30A BMS. Following the point-to-point schematic, wire in the Type-C charging module, the 30A ESC, and the Digispark ATtiny85 microcontroller.
+
+3- Press the potentiometer and power switch into their respective fitted grooves on the enclosure cover. Align the Type-C charging module perfectly with its exterior cutout and secure it to the inner cover using strong double-sided tape.
+
+ 4- Carefully insert the fully wired battery pack, ESC, and microcontroller bundle into the handle cavity, ensuring no wires are pressed . Power the unit on for a live test run to verify the speed control works and the impeller spins without, just a sanity check.
+
+5- Once operation is fully verified, apply a thin layer of super  around the mating edges of the cover and press it firmly onto the main body housing to permanently seal the uni as it rechargeable it doesnt need to open agn and agn so that why i used super glue.
+
 
 **Standard Color Coding Used:**
 * 🔴 **Red Wire:** Signifies the Positive (+) / Power line (VCC).
